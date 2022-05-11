@@ -1,0 +1,12 @@
+{
+  "info": {
+    "name": "nature",
+    "background": "dark",
+    "author": "Shahidul Islam Majumder <hello@shahid.pro>"
+  },
+  "palette": {
+    "fg": "#fafbfc",
+    "bg": "#2a2a2a"
+  },
+  "highlights": {}
+}
