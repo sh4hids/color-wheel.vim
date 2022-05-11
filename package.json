@@ -1,7 +1,7 @@
 {
-  "name": "color-wheel",
+  "name": "color-wheel.vim",
   "version": "1.0.0",
-  "description": "A simple script to generate colorscheme for (neo)vim",
+  "description": "A simple JavaScript utility to generate colorscheme for (neo)vim",
   "main": "build.js",
   "scripts": {
     "build": "node build.js",
@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sh4hids/color-wheel.git"
+    "url": "git+https://github.com/sh4hids/color-wheel.vim.git"
   },
   "keywords": [],
   "author": "Shahidul Islam Majumder <hello@shahid.pro>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sh4hids/color-wheel/issues"
+    "url": "https://github.com/sh4hids/color-wheel.vim/issues"
   },
-  "homepage": "https://github.com/sh4hids/color-wheel#readme",
+  "homepage": "https://github.com/sh4hids/color-wheel.vim#readme",
   "devDependencies": {
     "@babel/cli": "^7.17.10",
     "@babel/core": "^7.17.10",
