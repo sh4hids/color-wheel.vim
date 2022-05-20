@@ -12,17 +12,17 @@ let g:colors_name='horizon'
 
 hi Normal guifg=#6c6f93 ctermfg=60 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
 hi Comment guifg=#2e303e ctermfg=236 guibg=NONE ctermbg=NONE gui=italic cterm=italic 
-hi Todo guifg=#e95379 ctermfg=168 guibg=#1c1e26 ctermbg=234 gui=bold,italic cterm=bold,italic 
+hi Todo guifg=#2e303e ctermfg=236 guibg=#1c1e26 ctermbg=234 gui=bold,italic cterm=bold,italic 
 hi Error guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse 
 hi Constant guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi Statement guifg=#21bfc2 ctermfg=37 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi Type guifg=#fac29a ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
-hi Keyword guifg=#27d796 ctermfg=42 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi Keyword guifg=#b877db ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi Identifier guifg=#e95678 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi PreProc guifg=#b877db ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi Title guifg=#b877db ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi Boolean guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
-hi Function guifg=#27d796 ctermfg=42 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
+hi Function guifg=#25b2bc ctermfg=37 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
 hi String guifg=#09f7a0 ctermfg=49 guibg=NONE ctermbg=NONE gui=italic cterm=italic 
 hi Special guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=italic cterm=italic 
 hi Underlined   gui=underline cterm=underline 
