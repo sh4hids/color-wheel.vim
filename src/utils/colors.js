@@ -52,7 +52,7 @@ export function rgbTox255(rgb = []) {
 }
 
 export function hslToRgb(h, s, l) {
-  if (!h || !s || !l) {
+  if (h === undefined || s === undefined || l === undefined) {
     throw new Error('Invalid hsl color');
   }
 
@@ -106,6 +106,7 @@ export function getColorRgb(color, palette = {}) {
     if (/^hsl\((\d+), (\d+), (\d+)\)$/.test(c)) {
       hslColor = c.match(/\d+/g).map(Number);
     }
+
     return hslToRgb(...hslColor);
   }
 

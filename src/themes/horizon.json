@@ -1,0 +1,119 @@
+{
+  "info": {
+    "name": "horizon",
+    "background": "dark",
+    "author": "Shahidul Islam Majumder <hello@shahid.pro>"
+  },
+  "palette": {
+    "fg": "#6C6F93",
+    "bg": "#1C1E26",
+
+    "dark0": "#6C6F93",
+    "dark1": "#2E303E",
+    "dark2": "#232530",
+    "dark3": "#1C1E26",
+    "dark4": "#1A1C23",
+    "dark5": "#16161C",
+
+    "red0": "#E95678",
+    "red1": "#E95379",
+    "red2": "#E9436F",
+    "red3": "#F43E5C",
+
+    "cyan0": "#21BFC2",
+    "cyan1": "#25B2BC",
+
+    "green0": "#09F7A0",
+    "green1": "#27D796",
+
+    "orange0": "#FAC29A",
+    "orange1": "#FAB795",
+    "orange2": "#FAB28E",
+    "orange3": "#F09383",
+
+    "purple0": "#B877DB"
+  },
+  "highlights": {
+    "Normal": "fg bg",
+
+    "Comment": "dark1 - i",
+    "Todo": "red1 dark3 bi",
+    "Error": "red1 - br",
+
+    "Constant": "red1",
+    "Statement": "cyan0",
+    "Type": "orange0",
+    "Keyword": "green1",
+    "Identifier": "red0",
+    "PreProc": "purple0",
+    "Title": "purple0",
+    "Boolean": "red1 - b",
+    "Function": "green1 - b",
+    "String": "green0 - i",
+    "Special": "orange2 - i",
+    "Underlined": ". . u",
+
+    "Cursor": "- - r",
+    "Search": "red1 - br",
+    "Visual": "purple0 - r",
+    "MatchParen": "red1 red2 b",
+    "NonText": "orange1 dark3",
+    "SpecialKey": "orange2",
+
+    "ErrorMsg": "red1 - br",
+    "WarningMsg": "orange2 - br",
+    "ModeMsg": "orange0 - br",
+    "MoreMsg": "green0 - br",
+    "Question": "cyan0 - br",
+    "Directory": "purple0 - b",
+
+    "DiffAdd": "- green1",
+    "DiffDelete": "red2 red2",
+    "DiffChange": "- cyan1",
+    "DiffText": "- cyan1",
+    "Folded": "purple0 dark3 i",
+    "FoldColumn": "purple0 bg",
+    "Pmenu": "fg dark3",
+    "PmenuSel": "purple0 dark3 br",
+    "PmenuSbar": "- dark3",
+    "PmenuThumb": "- orange0",
+    "WildMenu": "purple0 dark3 br",
+    "LineNr": "orange2",
+    "CursorLine": "- dark3",
+    "CursorColumn": "- dark3",
+    "CursorLineNr": "orange0 - b",
+
+    "SpellBad": "red1 - u",
+    "SpellCap": "cyan0 - u",
+    "SpellRare": "red0 - u",
+    "SpellLocal": "cyan0 - u",
+
+    "diffAdded": "green0",
+    "diffRemoved": "red1",
+    "diffFile": "purple0 - br",
+    "diffNewFile": "green0",
+    "diffOldFile": "red1",
+
+    "rubyArrayDelimiter": "cyan0",
+    "rubyCurlyBlockDelimiter": "cyan0",
+
+    "SignColumn": ". dark3 .",
+    "GitGutterAdd": "green0 dark3",
+    "GitGutterDelete": "red1 dark3",
+    "GitGutterChange": "purple0 dark3",
+    "TabLineFill": "",
+    "TabLine": "dark2 dark3",
+    "TabLineSel": "purple0 dark3",
+    "StatusLine": "dark0 dark3",
+    "StatusLineNC": "dark2 dark3",
+    "StatusLineTerm": "green0 dark3",
+    "StatusLineTermNC": "dark2 dark3",
+    "VertSplit": "fg dark3",
+    "ColorColumn": "- dark3",
+    "QuickFixLine": "- cyan1",
+    "ToolbarLine": ". dark3",
+    "ToolbarButton": "dark1 - r",
+    "debugPc": "- cyan1",
+    "debugBreakpoint": "red1 - r"
+  }
+}

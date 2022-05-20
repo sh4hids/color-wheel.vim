@@ -5,7 +5,7 @@ import path from 'path';
 
 async function getSourceThemes() {
   const data = [];
-  const srcDir = path.join(__dirname, '../../srcc');
+  const srcDir = path.join(__dirname, '../themes');
   const files = await fs.readdir(srcDir);
 
   for (let i = 0, { length } = files; i < length; i++) {
