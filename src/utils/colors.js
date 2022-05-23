@@ -18,7 +18,7 @@ export function hexToRgb(hex = '') {
 }
 
 export function rgbToHex(r = '', g = '', b = '') {
-  if (!r || !g || !b) {
+  if (r === undefined || g === undefined || b === undefined) {
     throw new Error('Invalid rgb color');
   }
 
