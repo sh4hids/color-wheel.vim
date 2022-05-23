@@ -22,10 +22,10 @@ hi Keyword guifg=#b877db ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Identifier guifg=#e95678 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi PreProc guifg=#b877db ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi Title guifg=#b877db ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
-hi Number guifg=#f09383 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
-hi Boolean guifg=#f09383 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi Number guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi Boolean guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi Function guifg=#25b2bc ctermfg=37 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
-hi String guifg=#fac29a ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi String guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi Special guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi Underlined   gui=underline cterm=underline 
 hi Cursor guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse 
@@ -51,7 +51,7 @@ hi PmenuSel guifg=#b877db ctermfg=140 guibg=#1c1e26 ctermbg=234 gui=bold,reverse
 hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
 hi PmenuThumb guifg=NONE ctermfg=NONE guibg=#fac29a ctermbg=216 gui=NONE cterm=NONE 
 hi WildMenu guifg=#b877db ctermfg=140 guibg=#1c1e26 ctermbg=234 gui=bold,reverse cterm=bold,reverse 
-hi LineNr guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi LineNr guifg=#232530 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
 hi CursorLineNr guifg=#fac29a ctermfg=216 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
@@ -64,17 +64,20 @@ hi diffRemoved guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi diffFile guifg=#b877db ctermfg=140 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse 
 hi diffNewFile guifg=#09f7a0 ctermfg=49 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi diffOldFile guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
-hi TSString guifg=#fac29a ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
-hi TSCharacter guifg=#fac29a ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
-hi TSNumber guifg=#fac29a ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
-hi TSBoolean guifg=#fac29a ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
-hi TSFloat guifg=#fac29a ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi TSString guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi TSCharacter guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi TSNumber guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi TSBoolean guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi TSFloat guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi TSVariable guifg=#e95678 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi TSPunctDelimiter guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi TSPunctBracket guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi rubyArrayDelimiter guifg=#21bfc2 ctermfg=37 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi rubyCurlyBlockDelimiter guifg=#21bfc2 ctermfg=37 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi SignColumn  guibg=#1c1e26 ctermbg=234  
 hi GitGutterAdd guifg=#09f7a0 ctermfg=49 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
 hi GitGutterDelete guifg=#e95379 ctermfg=168 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
-hi GitGutterChange guifg=#b877db ctermfg=140 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
+hi GitGutterChange guifg=#27d796 ctermfg=42 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
 
 hi TabLine guifg=#232530 ctermfg=235 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
 hi TabLineSel guifg=#b877db ctermfg=140 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
