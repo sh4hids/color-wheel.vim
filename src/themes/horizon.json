@@ -148,7 +148,8 @@
 
     "IndentBlanklineChar": "dark2",
 
-    "NvimTreeRootFolder": "dark1",
-    "NvimTreeFolderName": "dark1"
+    "NvimTreeRootFolder": "dark0",
+    "NvimTreeFolderName": "dark0",
+    "NvimTreeSpecialFile": "dark0 - ."
   }
 }
