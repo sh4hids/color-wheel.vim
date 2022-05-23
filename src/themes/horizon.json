@@ -59,7 +59,7 @@
     "Search": "- dark0 b",
     "Visual": "- dark0",
     "MatchParen": "red1 red2 b",
-    "NonText": "orange1 dark3",
+    "NonText": "dark1 dark3",
     "SpecialKey": "orange2",
 
     "ErrorMsg": "red1 - br",
