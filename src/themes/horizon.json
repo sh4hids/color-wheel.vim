@@ -55,9 +55,9 @@
     "Special": "orange2",
     "Underlined": ". . u",
 
-    "Cursor": "- - r",
-    "Search": "dark0 - br",
-    "Visual": "dark0 - r",
+    "Cursor": "red1 - r",
+    "Search": "dark0 - b",
+    "Visual": "dark0",
     "MatchParen": "red1 red2 b",
     "NonText": "orange1 dark3",
     "SpecialKey": "orange2",
@@ -150,6 +150,10 @@
 
     "NvimTreeRootFolder": "dark0",
     "NvimTreeFolderName": "dark0",
-    "NvimTreeSpecialFile": "dark0 - ."
+    "NvimTreeSpecialFile": "dark0 - .",
+
+    "GitSignsAdd": "green1",
+    "GitSignsChange": "orange1",
+    "GitSignsDelete": "red1"
   }
 }

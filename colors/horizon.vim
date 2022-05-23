@@ -28,9 +28,9 @@ hi Function guifg=#25b2bc ctermfg=37 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi String guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi Special guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi Underlined   gui=underline cterm=underline 
-hi Cursor guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse 
-hi Search guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse 
-hi Visual guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse 
+hi Cursor guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse 
+hi Search guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
+hi Visual guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi MatchParen guifg=#e95379 ctermfg=168 guibg=#e9436f ctermbg=167 gui=bold cterm=bold 
 hi NonText guifg=#fab795 ctermfg=216 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
 hi SpecialKey guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
@@ -111,3 +111,6 @@ hi IndentBlanklineChar guifg=#232530 ctermfg=235 guibg=NONE ctermbg=NONE gui=NON
 hi NvimTreeRootFolder guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi NvimTreeFolderName guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi NvimTreeSpecialFile guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE  
+hi GitSignsAdd guifg=#27d796 ctermfg=42 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi GitSignsChange guifg=#fab795 ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi GitSignsDelete guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
