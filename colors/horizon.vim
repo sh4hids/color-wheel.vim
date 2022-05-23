@@ -108,3 +108,5 @@ hi ToolbarButton guifg=#2e303e ctermfg=236 guibg=NONE ctermbg=NONE gui=reverse c
 hi debugPc guifg=NONE ctermfg=NONE guibg=#25b2bc ctermbg=37 gui=NONE cterm=NONE 
 hi debugBreakpoint guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse 
 hi IndentBlanklineChar guifg=#232530 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi NvimTreeRootFolder guifg=#2e303e ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi NvimTreeFolderName guifg=#2e303e ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
