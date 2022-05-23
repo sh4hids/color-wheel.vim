@@ -114,7 +114,8 @@
 
     "TSStringRegex": "orange3",
     "TSStringEscape": "cyan1",
-    "TSPunctBracket": "orange2",
+    "TSPunctBracket": "purple0",
+    "TSPunctSpecial": "dark0",
     "TSOperator": "dark0",
     "TSKeyword": "purple0",
     "TSKeywordOperator": "purple0",

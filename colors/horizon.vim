@@ -78,7 +78,8 @@ hi jsonTSLabel guifg=#e95678 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi TSProperty guifg=#f09383 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi TSStringRegex guifg=#f09383 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi TSStringEscape guifg=#25b2bc ctermfg=37 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
-hi TSPunctBracket guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi TSPunctBracket guifg=#b877db ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi TSPunctSpecial guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi TSOperator guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi TSKeyword guifg=#b877db ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi TSKeywordOperator guifg=#b877db ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
