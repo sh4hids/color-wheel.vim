@@ -80,7 +80,7 @@
     "PmenuSbar": "- dark3",
     "PmenuThumb": "- orange0",
     "WildMenu": "purple0 dark3 br",
-    "LineNr": "dark1",
+    "LineNr": "dark0",
     "CursorLine": "- dark3",
     "CursorColumn": "- dark3",
     "CursorLineNr": "- - b",
