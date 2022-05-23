@@ -83,7 +83,7 @@
     "LineNr": "dark1",
     "CursorLine": "- dark3",
     "CursorColumn": "- dark3",
-    "CursorLineNr": "orange0 - b",
+    "CursorLineNr": "- - b",
 
     "SpellBad": "red1 - u",
     "SpellCap": "cyan0 - u",

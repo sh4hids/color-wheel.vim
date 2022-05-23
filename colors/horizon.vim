@@ -54,7 +54,7 @@ hi WildMenu guifg=#b877db ctermfg=140 guibg=#1c1e26 ctermbg=234 gui=bold,reverse
 hi LineNr guifg=#2e303e ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
-hi CursorLineNr guifg=#fac29a ctermfg=216 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
+hi CursorLineNr guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=bold cterm=bold 
 hi SpellBad guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=underline cterm=underline 
 hi SpellCap guifg=#21bfc2 ctermfg=37 guibg=NONE ctermbg=NONE gui=underline cterm=underline 
 hi SpellRare guifg=#e95678 ctermfg=168 guibg=NONE ctermbg=NONE gui=underline cterm=underline 
