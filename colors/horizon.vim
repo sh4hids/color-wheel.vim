@@ -12,6 +12,7 @@ let g:colors_name='horizon'
 
 hi Normal guifg=#6c6f93 ctermfg=60 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
 hi Comment guifg=#2e303e ctermfg=236 guibg=NONE ctermbg=NONE gui=italic cterm=italic 
+hi SpecialComment guifg=#2e303e ctermfg=236 guibg=NONE ctermbg=NONE gui=italic cterm=italic 
 hi Todo guifg=#2e303e ctermfg=236 guibg=#1c1e26 ctermbg=234 gui=bold,italic cterm=bold,italic 
 hi Error guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse 
 hi Constant guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
@@ -21,14 +22,15 @@ hi Keyword guifg=#b877db ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Identifier guifg=#e95678 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi PreProc guifg=#b877db ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi Title guifg=#b877db ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
-hi Boolean guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
-hi Function guifg=#25b2bc ctermfg=37 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
-hi String guifg=#09f7a0 ctermfg=49 guibg=NONE ctermbg=NONE gui=italic cterm=italic 
-hi Special guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=italic cterm=italic 
+hi Number guifg=#f09383 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi Boolean guifg=#f09383 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi Function guifg=#25b2bc ctermfg=37 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi String guifg=#fac29a ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi Special guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi Underlined   gui=underline cterm=underline 
 hi Cursor guifg=NONE ctermfg=NONE guibg=NONE ctermbg=NONE gui=reverse cterm=reverse 
-hi Search guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse 
-hi Visual guifg=#b877db ctermfg=140 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse 
+hi Search guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse 
+hi Visual guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse 
 hi MatchParen guifg=#e95379 ctermfg=168 guibg=#e9436f ctermbg=167 gui=bold cterm=bold 
 hi NonText guifg=#fab795 ctermfg=216 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
 hi SpecialKey guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
@@ -62,6 +64,11 @@ hi diffRemoved guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=
 hi diffFile guifg=#b877db ctermfg=140 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse 
 hi diffNewFile guifg=#09f7a0 ctermfg=49 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi diffOldFile guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi TSString guifg=#fac29a ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi TSCharacter guifg=#fac29a ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi TSNumber guifg=#fac29a ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi TSBoolean guifg=#fac29a ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi TSFloat guifg=#fac29a ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi rubyArrayDelimiter guifg=#21bfc2 ctermfg=37 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi rubyCurlyBlockDelimiter guifg=#21bfc2 ctermfg=37 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi SignColumn  guibg=#1c1e26 ctermbg=234  
