@@ -104,15 +104,21 @@
 
     "TSVariable": "red0",
     "TSLabel": "red0",
+    "TSLabel": "purple0",
 
     "TSFunction": "cyan1",
     "TSMethod": "cyan1",
     "TSParameter": "red0",
     "TSProperty": "orange3",
 
-    "TSPunctDelimiter": "orange2",
+    "TSPunctDelimiter": "orange3",
+    "TSStringRegex": "orange3",
+    "TSStringEscape": "cyan1",
     "TSPunctBracket": "orange2",
     "TSOperator": "dark0",
+    "TSKeyword": "dark0",
+    "TSKeywordOperator": "purple0",
+    "TSException": "purple0",
     "TSPunctDelimiter": "dark0",
 
     "rubyArrayDelimiter": "cyan0",
