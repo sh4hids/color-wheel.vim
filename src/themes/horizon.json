@@ -56,8 +56,8 @@
     "Underlined": ". . u",
 
     "Cursor": "red1 - r",
-    "Search": "dark0 - b",
-    "Visual": "dark0",
+    "Search": "- dark0 b",
+    "Visual": "- dark0",
     "MatchParen": "red1 red2 b",
     "NonText": "orange1 dark3",
     "SpecialKey": "orange2",

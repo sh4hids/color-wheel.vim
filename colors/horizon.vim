@@ -29,8 +29,8 @@ hi String guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi Underlined   gui=underline cterm=underline 
 hi Cursor guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse 
-hi Search guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
-hi Visual guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi Search guifg=NONE ctermfg=NONE guibg=#6c6f93 ctermbg=60 gui=bold cterm=bold 
+hi Visual guifg=NONE ctermfg=NONE guibg=#6c6f93 ctermbg=60 gui=NONE cterm=NONE 
 hi MatchParen guifg=#e95379 ctermfg=168 guibg=#e9436f ctermbg=167 gui=bold cterm=bold 
 hi NonText guifg=#fab795 ctermfg=216 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
 hi SpecialKey guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
