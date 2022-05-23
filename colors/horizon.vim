@@ -51,7 +51,7 @@ hi PmenuSel guifg=#b877db ctermfg=140 guibg=#1c1e26 ctermbg=234 gui=bold,reverse
 hi PmenuSbar guifg=NONE ctermfg=NONE guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
 hi PmenuThumb guifg=NONE ctermfg=NONE guibg=#fac29a ctermbg=216 gui=NONE cterm=NONE 
 hi WildMenu guifg=#b877db ctermfg=140 guibg=#1c1e26 ctermbg=234 gui=bold,reverse cterm=bold,reverse 
-hi LineNr guifg=#232530 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi LineNr guifg=#2e303e ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi CursorLine guifg=NONE ctermfg=NONE guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
 hi CursorColumn guifg=NONE ctermfg=NONE guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
 hi CursorLineNr guifg=#fac29a ctermfg=216 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
@@ -98,3 +98,4 @@ hi ToolbarLine  guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE
 hi ToolbarButton guifg=#2e303e ctermfg=236 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse 
 hi debugPc guifg=NONE ctermfg=NONE guibg=#25b2bc ctermbg=37 gui=NONE cterm=NONE 
 hi debugBreakpoint guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse 
+hi IndentBlanklineIndent1 guifg=#232530 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 

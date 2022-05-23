@@ -80,7 +80,7 @@
     "PmenuSbar": "- dark3",
     "PmenuThumb": "- orange0",
     "WildMenu": "purple0 dark3 br",
-    "LineNr": "dark2",
+    "LineNr": "dark1",
     "CursorLine": "- dark3",
     "CursorColumn": "- dark3",
     "CursorLineNr": "orange0 - b",
@@ -135,6 +135,8 @@
     "ToolbarLine": ". dark3",
     "ToolbarButton": "dark1 - r",
     "debugPc": "- cyan1",
-    "debugBreakpoint": "red1 - r"
+    "debugBreakpoint": "red1 - r",
+
+    "IndentBlanklineIndent1": "dark2"
   }
 }
