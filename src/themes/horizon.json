@@ -58,7 +58,7 @@
     "Cursor": "red1 - r",
     "Search": "- dark0 b",
     "Visual": "- dark0",
-    "MatchParen": "red1 red2 b",
+    "MatchParen": "- dark0 b",
     "NonText": "dark1 dark3",
     "SpecialKey": "orange2",
 
