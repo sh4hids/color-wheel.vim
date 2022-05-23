@@ -103,13 +103,17 @@
     "TSFloat": "orange2",
 
     "TSVariable": "red0",
+    "TSLabel": "red0",
 
     "TSFunction": "cyan1",
     "TSMethod": "cyan1",
     "TSParameter": "red0",
+    "TSProperty": "orange3",
 
     "TSPunctDelimiter": "orange2",
     "TSPunctBracket": "orange2",
+    "TSOperator": "dark0",
+    "TSPunctDelimiter": "dark0",
 
     "rubyArrayDelimiter": "cyan0",
     "rubyCurlyBlockDelimiter": "cyan0",
