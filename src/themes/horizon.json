@@ -104,6 +104,10 @@
 
     "TSVariable": "red0",
 
+    "TSFunction": "cyan1",
+    "TSMethod": "cyan1",
+    "TSParameter": "red0",
+
     "TSPunctDelimiter": "orange2",
     "TSPunctBracket": "orange2",
 
