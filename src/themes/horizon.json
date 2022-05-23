@@ -51,8 +51,8 @@
     "Number": "orange3",
     "Boolean": "orange3",
     "Function": "cyan1",
-    "String": "orange0 - i",
-    "Special": "orange2 - i",
+    "String": "orange0",
+    "Special": "orange2",
     "Underlined": ". . u",
 
     "Cursor": "- - r",
@@ -95,6 +95,12 @@
     "diffFile": "purple0 - br",
     "diffNewFile": "green0",
     "diffOldFile": "red1",
+
+    "TSString": "orange0",
+    "TSCharacter": "orange0",
+    "TSNumber": "orange0",
+    "TSBoolean": "orange0",
+    "TSFloat": "orange0",
 
     "rubyArrayDelimiter": "cyan0",
     "rubyCurlyBlockDelimiter": "cyan0",
