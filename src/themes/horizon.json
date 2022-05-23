@@ -146,7 +146,6 @@
     "debugPc": "- cyan1",
     "debugBreakpoint": "red1 - r",
 
-    "IndentBlanklineChar": "purple0",
-    "IndentBlanklineSpaceCharBlankline": "dark2"
+    "IndentBlanklineChar": "dark2"
   }
 }
