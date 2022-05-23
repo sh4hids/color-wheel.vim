@@ -109,9 +109,9 @@
     "TSFunction": "cyan1",
     "TSMethod": "cyan1",
     "TSParameter": "red0",
+    "jsonTSLabel": "red0",
     "TSProperty": "orange3",
 
-    "TSPunctDelimiter": "orange3",
     "TSStringRegex": "orange3",
     "TSStringEscape": "cyan1",
     "TSPunctBracket": "orange2",
@@ -119,6 +119,7 @@
     "TSKeyword": "purple0",
     "TSKeywordOperator": "purple0",
     "TSKeywordReturn": "purple0",
+    "TSConditional": "purple0",
     "TSException": "purple0",
     "TSPunctDelimiter": "dark0",
 
