@@ -116,8 +116,9 @@
     "TSStringEscape": "cyan1",
     "TSPunctBracket": "orange2",
     "TSOperator": "dark0",
-    "TSKeyword": "dark0",
+    "TSKeyword": "purple0",
     "TSKeywordOperator": "purple0",
+    "TSKeywordReturn": "purple0",
     "TSException": "purple0",
     "TSPunctDelimiter": "dark0",
 
