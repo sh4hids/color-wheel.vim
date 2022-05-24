@@ -158,29 +158,29 @@
   "lualine": {
     "inactive": {
       "a": { "fg": "dark0", "bg": "dark1", "gui": "bold" },
-      "b": { "fg": "dark0", "bg": "dark2" },
+      "b": { "fg": "dark3", "bg": "dark0" },
       "c": { "fg": "dark0", "bg": "dark3" }
     },
     "normal": {
       "a": { "fg": "dark0", "bg": "red0", "gui": "bold" },
-      "b": { "fg": "dark0", "bg": "dark1" },
+      "b": { "fg": "dark3", "bg": "dark0" },
       "c": { "fg": "dark0", "bg": "dark3" }
     },
     "insert": {
       "a": { "fg": "dark0", "bg": "cyan0", "gui": "bold" },
-      "b": { "fg": "dark0", "bg": "dark1" }
+      "b": { "fg": "dark3", "bg": "dark0" }
     },
     "visual": {
       "a": { "fg": "dark0", "bg": "orange0", "gui": "bold" },
-      "b": { "fg": "dark0", "bg": "dark1" }
+      "b": { "fg": "dark3", "bg": "dark0" }
     },
     "replace": {
       "a": { "fg": "dark0", "bg": "purple0", "gui": "bold" },
-      "b": { "fg": "dark0", "bg": "dark1" }
+      "b": { "fg": "dark3", "bg": "dark0" }
     },
     "command": {
       "a": { "fg": "dark0", "bg": "green0", "gui": "bold" },
-      "b": { "fg": "dark0", "bg": "dark1" }
+      "b": { "fg": "dark3", "bg": "dark0" }
     }
   }
 }
