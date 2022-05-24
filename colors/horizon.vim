@@ -30,9 +30,10 @@ hi Special guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Underlined   gui=underline cterm=underline 
 hi Cursor guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse 
 hi Search guifg=NONE ctermfg=NONE guibg=#6c6f93 ctermbg=60 gui=bold cterm=bold 
+hi QuickFixLine guifg=NONE ctermfg=NONE guibg=#25b2bc ctermbg=37 gui=NONE cterm=NONE 
 hi Visual guifg=NONE ctermfg=NONE guibg=#6c6f93 ctermbg=60 gui=NONE cterm=NONE 
 hi MatchParen guifg=NONE ctermfg=NONE guibg=#6c6f93 ctermbg=60 gui=bold cterm=bold 
-hi NonText guifg=#2e303e ctermfg=236 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
+hi NonText guifg=#6c6f93 ctermfg=60 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
 hi SpecialKey guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi ErrorMsg guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse 
 hi WarningMsg guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse 
@@ -41,7 +42,7 @@ hi MoreMsg guifg=#09f7a0 ctermfg=49 guibg=NONE ctermbg=NONE gui=bold,reverse cte
 hi Question guifg=#21bfc2 ctermfg=37 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse 
 hi Directory guifg=#b877db ctermfg=140 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
 hi DiffAdd guifg=NONE ctermfg=NONE guibg=#27d796 ctermbg=42 gui=NONE cterm=NONE 
-hi DiffDelete guifg=#e9436f ctermfg=167 guibg=#e9436f ctermbg=167 gui=NONE cterm=NONE 
+hi DiffDelete guifg=#6c6f93 ctermfg=60 guibg=#e9436f ctermbg=167 gui=NONE cterm=NONE 
 hi DiffChange guifg=NONE ctermfg=NONE guibg=#25b2bc ctermbg=37 gui=NONE cterm=NONE 
 hi DiffText guifg=NONE ctermfg=NONE guibg=#25b2bc ctermbg=37 gui=NONE cterm=NONE 
 hi Folded guifg=#b877db ctermfg=140 guibg=#1c1e26 ctermbg=234 gui=italic cterm=italic 
@@ -59,6 +60,7 @@ hi SpellBad guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=underline cter
 hi SpellCap guifg=#21bfc2 ctermfg=37 guibg=NONE ctermbg=NONE gui=underline cterm=underline 
 hi SpellRare guifg=#e95678 ctermfg=168 guibg=NONE ctermbg=NONE gui=underline cterm=underline 
 hi SpellLocal guifg=#21bfc2 ctermfg=37 guibg=NONE ctermbg=NONE gui=underline cterm=underline 
+hi Terminal guifg=#1c1e26 ctermfg=234 guibg=#6c6f93 ctermbg=60 gui=NONE cterm=NONE 
 hi diffAdded guifg=#09f7a0 ctermfg=49 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi diffRemoved guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi diffFile guifg=#b877db ctermfg=140 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse 
@@ -102,7 +104,6 @@ hi StatusLineTerm guifg=#09f7a0 ctermfg=49 guibg=#1c1e26 ctermbg=234 gui=NONE ct
 hi StatusLineTermNC guifg=#232530 ctermfg=235 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
 hi VertSplit guifg=#6c6f93 ctermfg=60 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
 hi ColorColumn guifg=NONE ctermfg=NONE guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
-hi QuickFixLine guifg=NONE ctermfg=NONE guibg=#25b2bc ctermbg=37 gui=NONE cterm=NONE 
 hi ToolbarLine  guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
 hi ToolbarButton guifg=#2e303e ctermfg=236 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse 
 hi debugPc guifg=NONE ctermfg=NONE guibg=#25b2bc ctermbg=37 gui=NONE cterm=NONE 
