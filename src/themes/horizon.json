@@ -157,7 +157,7 @@
     "GitSignsChange": "orange1",
     "GitSignsDelete": "red1",
 
-    "DashboardHeader": "red2",
+    "DashboardHeader": "red1",
     "DashboardCenter": "orange2",
     "DashboardShortCut": "orange3",
     "DashboardFooter": "cyan0"
