@@ -116,4 +116,5 @@ hi GitSignsAdd guifg=#27d796 ctermfg=42 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi GitSignsChange guifg=#fab795 ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi GitSignsDelete guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi DashboardHeader guifg=#e95678 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
-hi DashboardFooter guifg=#232530 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi DashboardFooter guifg=#2e303e ctermfg=236 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi DashboardShortCut guifg=#f09383 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
