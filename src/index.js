@@ -1,6 +1,6 @@
 import fs from 'fs/promises';
 import path from 'path';
-import { getSourceThemes, generateTheme } from './utils';
+import { getSourceThemes, generateTheme, generateLualineTheme } from './utils';
 
 (async () => {
   const themes = await getSourceThemes();
@@ -11,6 +11,14 @@ import { getSourceThemes, generateTheme } from './utils';
       color,
       { encoding: 'utf-8' }
     );
+    if (theme.lualine) {
+      const lualineTheme = generateLualineTheme(theme);
+      await fs.writeFile(
+        path.join(__dirname, '../lua/lualine/themes', `${theme.info.name}.lua`),
+        lualineTheme,
+        { encoding: 'utf-8' }
+      );
+    }
     console.log(`Theme '${theme.info.name}.vim' created successfully`);
   });
 })();

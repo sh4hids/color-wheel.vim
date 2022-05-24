@@ -108,3 +108,108 @@ export function generateTheme(data = {}) {
 
   return theme;
 }
+
+export function generateLualineTheme(data = {}) {
+  return `
+  local ${data.info.name} = {
+    inactive = {
+      a = { fg = '${rgbToHex(
+        ...getColorRgb(data.lualine.inactive.a.fg, data.palette)
+      )}', bg = '${rgbToHex(
+    ...getColorRgb(data.lualine.inactive.a.bg, data.palette)
+  )}' ${
+    data.lualine.inactive.a.gui
+      ? `, gui = '${data.lualine.inactive.a.gui}'`
+      : ''
+  } },
+      b = { fg = '${rgbToHex(
+        ...getColorRgb(data.lualine.inactive.b.fg, data.palette)
+      )}', bg = '${rgbToHex(
+    ...getColorRgb(data.lualine.inactive.b.bg, data.palette)
+  )}' },
+      c = { fg = '${rgbToHex(
+        ...getColorRgb(data.lualine.inactive.c.fg, data.palette)
+      )}', bg = '${rgbToHex(
+    ...getColorRgb(data.lualine.inactive.c.bg, data.palette)
+  )}' },
+    },
+    normal = {
+      a = { fg = '${rgbToHex(
+        ...getColorRgb(data.lualine.normal.a.fg, data.palette)
+      )}', bg = '${rgbToHex(
+    ...getColorRgb(data.lualine.normal.a.bg, data.palette)
+  )}' ${
+    data.lualine.normal.a.gui ? `, gui = '${data.lualine.normal.a.gui}'` : ''
+  } },
+      b = { fg = '${rgbToHex(
+        ...getColorRgb(data.lualine.normal.b.fg, data.palette)
+      )}', bg = '${rgbToHex(
+    ...getColorRgb(data.lualine.normal.b.bg, data.palette)
+  )}' },
+      c = { fg = '${rgbToHex(
+        ...getColorRgb(data.lualine.normal.c.fg, data.palette)
+      )}', bg = '${rgbToHex(
+    ...getColorRgb(data.lualine.normal.c.bg, data.palette)
+  )}' },
+    },
+    insert = {
+      a = { fg = '${rgbToHex(
+        ...getColorRgb(data.lualine.insert.a.fg, data.palette)
+      )}', bg = '${rgbToHex(
+    ...getColorRgb(data.lualine.insert.a.bg, data.palette)
+  )}' ${
+    data.lualine.insert.a.gui ? `, gui = '${data.lualine.insert.a.gui}'` : ''
+  } },
+      b = { fg = '${rgbToHex(
+        ...getColorRgb(data.lualine.insert.b.fg, data.palette)
+      )}', bg = '${rgbToHex(
+    ...getColorRgb(data.lualine.insert.b.bg, data.palette)
+  )}' },
+    },
+    visual = {
+      a = { fg = '${rgbToHex(
+        ...getColorRgb(data.lualine.visual.a.fg, data.palette)
+      )}', bg = '${rgbToHex(
+    ...getColorRgb(data.lualine.visual.a.bg, data.palette)
+  )}' ${
+    data.lualine.visual.a.gui ? `, gui = '${data.lualine.visual.a.gui}'` : ''
+  } },
+      b = { fg = '${rgbToHex(
+        ...getColorRgb(data.lualine.visual.b.fg, data.palette)
+      )}', bg = '${rgbToHex(
+    ...getColorRgb(data.lualine.visual.b.bg, data.palette)
+  )}' },
+    },
+    replace = {
+      a = { fg = '${rgbToHex(
+        ...getColorRgb(data.lualine.replace.a.fg, data.palette)
+      )}', bg = '${rgbToHex(
+    ...getColorRgb(data.lualine.replace.a.bg, data.palette)
+  )}' ${
+    data.lualine.replace.a.gui ? `, gui = '${data.lualine.replace.a.gui}'` : ''
+  } },
+      b = { fg = '${rgbToHex(
+        ...getColorRgb(data.lualine.replace.b.fg, data.palette)
+      )}', bg = '${rgbToHex(
+    ...getColorRgb(data.lualine.replace.b.bg, data.palette)
+  )}' },
+    },
+    command = {
+      a = { fg = '${rgbToHex(
+        ...getColorRgb(data.lualine.command.a.fg, data.palette)
+      )}', bg = '${rgbToHex(
+    ...getColorRgb(data.lualine.command.a.bg, data.palette)
+  )}' ${
+    data.lualine.command.a.gui ? `, gui = '${data.lualine.command.a.gui}'` : ''
+  } },
+      b = { fg = '${rgbToHex(
+        ...getColorRgb(data.lualine.command.b.fg, data.palette)
+      )}', bg = '${rgbToHex(
+    ...getColorRgb(data.lualine.command.b.bg, data.palette)
+  )}' },
+    },
+  }
+
+  return ${data.info.name};
+  `;
+}

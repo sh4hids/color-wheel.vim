@@ -96,7 +96,7 @@ hi GitGutterChange guifg=#27d796 ctermfg=42 guibg=#1c1e26 ctermbg=234 gui=NONE c
 
 hi TabLine guifg=#232530 ctermfg=235 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
 hi TabLineSel guifg=#b877db ctermfg=140 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
-hi StatusLine guifg=#6c6f93 ctermfg=60 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
+hi StatusLine guifg=#6c6f93 ctermfg=60 guibg=#232530 ctermbg=235 gui=NONE cterm=NONE 
 hi StatusLineNC guifg=#232530 ctermfg=235 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
 hi StatusLineTerm guifg=#09f7a0 ctermfg=49 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
 hi StatusLineTermNC guifg=#232530 ctermfg=235 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
