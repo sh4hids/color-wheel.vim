@@ -157,9 +157,10 @@
     "GitSignsChange": "orange1",
     "GitSignsDelete": "red1",
 
-    "DashboardHeader": "red0",
-    "DashboardFooter": "dark1",
-    "DashboardShortCut": "orange3"
+    "DashboardHeader": "red2",
+    "DashboardCenter": "orange2",
+    "DashboardShortCut": "orange3",
+    "DashboardFooter": "cyan0"
   },
   "lualine": {
     "inactive": {
