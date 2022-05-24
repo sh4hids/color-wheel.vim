@@ -165,6 +165,11 @@ export function generateLualineTheme(data = {}) {
       )}', bg = '${rgbToHex(
     ...getColorRgb(data.lualine.insert.b.bg, data.palette)
   )}' },
+      c = { fg = '${rgbToHex(
+        ...getColorRgb(data.lualine.insert.c.fg, data.palette)
+      )}', bg = '${rgbToHex(
+    ...getColorRgb(data.lualine.insert.c.bg, data.palette)
+  )}' },
     },
     visual = {
       a = { fg = '${rgbToHex(
@@ -178,6 +183,11 @@ export function generateLualineTheme(data = {}) {
         ...getColorRgb(data.lualine.visual.b.fg, data.palette)
       )}', bg = '${rgbToHex(
     ...getColorRgb(data.lualine.visual.b.bg, data.palette)
+  )}' },
+      c = { fg = '${rgbToHex(
+        ...getColorRgb(data.lualine.visual.c.fg, data.palette)
+      )}', bg = '${rgbToHex(
+    ...getColorRgb(data.lualine.visual.c.bg, data.palette)
   )}' },
     },
     replace = {
@@ -193,6 +203,11 @@ export function generateLualineTheme(data = {}) {
       )}', bg = '${rgbToHex(
     ...getColorRgb(data.lualine.replace.b.bg, data.palette)
   )}' },
+      c = { fg = '${rgbToHex(
+        ...getColorRgb(data.lualine.replace.c.fg, data.palette)
+      )}', bg = '${rgbToHex(
+    ...getColorRgb(data.lualine.replace.c.bg, data.palette)
+  )}' },
     },
     command = {
       a = { fg = '${rgbToHex(
@@ -206,6 +221,11 @@ export function generateLualineTheme(data = {}) {
         ...getColorRgb(data.lualine.command.b.fg, data.palette)
       )}', bg = '${rgbToHex(
     ...getColorRgb(data.lualine.command.b.bg, data.palette)
+  )}' },
+      c = { fg = '${rgbToHex(
+        ...getColorRgb(data.lualine.command.c.fg, data.palette)
+      )}', bg = '${rgbToHex(
+    ...getColorRgb(data.lualine.command.c.bg, data.palette)
   )}' },
     },
   }

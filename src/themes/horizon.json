@@ -159,9 +159,9 @@
   },
   "lualine": {
     "inactive": {
-      "a": { "fg": "dark0", "bg": "dark1", "gui": "bold" },
-      "b": { "fg": "dark0", "bg": "dark0" },
-      "c": { "fg": "dark0", "bg": "dark3" }
+      "a": { "fg": "dark1", "bg": "dark2", "gui": "bold" },
+      "b": { "fg": "dark1", "bg": "dark2" },
+      "c": { "fg": "dark1", "bg": "dark2" }
     },
     "normal": {
       "a": { "fg": "dark3", "bg": "red0", "gui": "bold" },
@@ -169,20 +169,24 @@
       "c": { "fg": "dark0", "bg": "dark4" }
     },
     "insert": {
-      "a": { "fg": "dark0", "bg": "cyan0", "gui": "bold" },
-      "b": { "fg": "dark0", "bg": "dark0" }
+      "a": { "fg": "dark3", "bg": "cyan1", "gui": "bold" },
+      "b": { "fg": "dark0", "bg": "dark1" },
+      "c": { "fg": "dark0", "bg": "dark4" }
     },
     "visual": {
-      "a": { "fg": "dark0", "bg": "orange0", "gui": "bold" },
-      "b": { "fg": "dark0", "bg": "dark0" }
+      "a": { "fg": "dark3", "bg": "orange3", "gui": "bold" },
+      "b": { "fg": "dark0", "bg": "dark0" },
+      "c": { "fg": "dark0", "bg": "dark4" }
     },
     "replace": {
-      "a": { "fg": "dark0", "bg": "purple0", "gui": "bold" },
-      "b": { "fg": "dark0", "bg": "dark0" }
+      "a": { "fg": "dark3", "bg": "red3", "gui": "bold" },
+      "b": { "fg": "dark0", "bg": "dark0" },
+      "c": { "fg": "dark0", "bg": "dark4" }
     },
     "command": {
       "a": { "fg": "dark3", "bg": "green0", "gui": "bold" },
-      "b": { "fg": "dark0", "bg": "dark0" }
+      "b": { "fg": "dark0", "bg": "dark0" },
+      "c": { "fg": "dark0", "bg": "dark4" }
     }
   }
 }
