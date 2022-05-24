@@ -155,7 +155,10 @@
 
     "GitSignsAdd": "green1",
     "GitSignsChange": "orange1",
-    "GitSignsDelete": "red1"
+    "GitSignsDelete": "red1",
+
+    "DashboardHeader": "red0",
+    "DashboardFooter": "dark2"
   },
   "lualine": {
     "inactive": {
