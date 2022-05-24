@@ -57,9 +57,10 @@
 
     "Cursor": "red1 - r",
     "Search": "- dark0 b",
+    "QuickFixLine": "- dark0 b",
     "Visual": "- dark0",
     "MatchParen": "- dark0 b",
-    "NonText": "dark1 dark3",
+    "NonText": "dark0 dark3",
     "SpecialKey": "orange2",
 
     "ErrorMsg": "red1 - br",
@@ -70,7 +71,7 @@
     "Directory": "purple0 - b",
 
     "DiffAdd": "- green1",
-    "DiffDelete": "red2 red2",
+    "DiffDelete": "dark0 red2",
     "DiffChange": "- cyan1",
     "DiffText": "- cyan1",
     "Folded": "purple0 dark3 i",
@@ -89,6 +90,7 @@
     "SpellCap": "cyan0 - u",
     "SpellRare": "red0 - u",
     "SpellLocal": "cyan0 - u",
+    "Terminal": "dark3 dark0",
 
     "diffAdded": "green0",
     "diffRemoved": "red1",
