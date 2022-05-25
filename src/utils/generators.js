@@ -233,3 +233,37 @@ export function generateLualineTheme(data = {}) {
   return ${data.info.name};
   `;
 }
+
+export function generateWeztermTheme(data = {}) {
+  return `
+  ["${data.info.name}"] = {
+      foreground = '${rgbToHex(
+        ...getColorRgb(data.wezterm.foreground, data.palette)
+      )}',
+      background = '${rgbToHex(
+        ...getColorRgb(data.wezterm.background, data.palette)
+      )}',
+      cursor_bg = '${rgbToHex(
+        ...getColorRgb(data.wezterm.cursor_bg, data.palette)
+      )}',
+      cursor_border = '${rgbToHex(
+        ...getColorRgb(data.wezterm.cursor_border, data.palette)
+      )}',
+      cursor_fg = '${rgbToHex(
+        ...getColorRgb(data.wezterm.cursor_fg, data.palette)
+      )}',
+      selection_bg = '${rgbToHex(
+        ...getColorRgb(data.wezterm.selection_bg, data.palette)
+      )}',
+      selection_fg = '${rgbToHex(
+        ...getColorRgb(data.wezterm.selection_fg, data.palette)
+      )}',
+      ansi = [${data.wezterm.ansi.map(
+        (item) => `'${rgbToHex(...getColorRgb(item, data.palette))}'`
+      )}],
+      brights = [${data.wezterm.brights.map(
+        (item) => `'${rgbToHex(...getColorRgb(item, data.palette))}'`
+      )}]
+    }
+  `;
+}

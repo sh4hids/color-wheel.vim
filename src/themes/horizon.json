@@ -193,5 +193,34 @@
       "b": { "fg": "dark0", "bg": "dark0" },
       "c": { "fg": "dark0", "bg": "dark4" }
     }
+  },
+  "wezterm": {
+    "foreground": "fg",
+    "background": "bg",
+    "cursor_bg": "orange1",
+    "cursor_border": "orange1",
+    "cursor_fg": "bg",
+    "selection_bg": "dark0",
+    "selection_fg": "dark3",
+    "ansi": [
+      "bg",
+      "red0",
+      "green0",
+      "orange0",
+      "purple0",
+      "red3",
+      "cyan0",
+      "fg"
+    ],
+    "brights": [
+      "bg",
+      "red0",
+      "green0",
+      "orange0",
+      "purple0",
+      "red3",
+      "cyan0",
+      "fg"
+    ]
   }
 }
