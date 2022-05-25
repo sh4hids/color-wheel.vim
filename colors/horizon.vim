@@ -89,6 +89,7 @@ hi TSKeywordReturn guifg=#b877db ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE ct
 hi TSConditional guifg=#b877db ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi TSException guifg=#b877db ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi TSPunctDelimiter guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi TSComment guifg=#2e303e ctermfg=236 guibg=NONE ctermbg=NONE gui=italic cterm=italic 
 hi rubyArrayDelimiter guifg=#21bfc2 ctermfg=37 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi rubyCurlyBlockDelimiter guifg=#21bfc2 ctermfg=37 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi SignColumn  guibg=#1c1e26 ctermbg=234  

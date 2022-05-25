@@ -124,6 +124,7 @@
     "TSConditional": "purple0",
     "TSException": "purple0",
     "TSPunctDelimiter": "dark0",
+    "TSComment": "dark1 - i",
 
     "rubyArrayDelimiter": "cyan0",
     "rubyCurlyBlockDelimiter": "cyan0",
@@ -200,25 +201,25 @@
     "cursor_bg": "orange1",
     "cursor_border": "orange1",
     "cursor_fg": "bg",
-    "selection_bg": "dark0",
+    "selection_bg": "dark1",
     "selection_fg": "dark3",
     "ansi": [
       "bg",
       "red0",
-      "green0",
       "orange0",
+      "green0",
       "red1",
-      "red3",
+      "purple0",
       "cyan0",
       "fg"
     ],
     "brights": [
-      "bg",
+      "dark2",
       "red0",
-      "green0",
       "orange0",
+      "green0",
       "red1",
-      "red3",
+      "purple0",
       "cyan0",
       "fg"
     ]

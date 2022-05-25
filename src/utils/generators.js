@@ -254,6 +254,7 @@ selection_bg = "${rgbToHex(
 selection_fg = "${rgbToHex(
     ...getColorRgb(data.wezterm.selection_fg, data.palette)
   )}"
+
 ansi = [${data.wezterm.ansi.map(
     (item) => `"${rgbToHex(...getColorRgb(item, data.palette))}"`
   )}]
