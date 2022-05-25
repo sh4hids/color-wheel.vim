@@ -201,8 +201,8 @@
     "cursor_bg": "orange1",
     "cursor_border": "orange1",
     "cursor_fg": "bg",
-    "selection_bg": "dark1",
-    "selection_fg": "dark3",
+    "selection_bg": "fg",
+    "selection_fg": "bg",
     "ansi": [
       "bg",
       "red0",
@@ -214,7 +214,7 @@
       "fg"
     ],
     "brights": [
-      "dark2",
+      "dark1",
       "red0",
       "orange0",
       "green0",

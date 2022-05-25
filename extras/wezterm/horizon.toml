@@ -5,9 +5,9 @@ background = "#1c1e26"
 cursor_bg = "#fab795"
 cursor_border = "#fab795"
 cursor_fg = "#1c1e26"
-selection_bg = "#2e303e"
+selection_bg = "#6c6f93"
 selection_fg = "#1c1e26"
 
 ansi = ["#1c1e26","#e95678","#fac29a","#09f7a0","#e95379","#b877db","#21bfc2","#6c6f93"]
-brights = ["#232530","#e95678","#fac29a","#09f7a0","#e95379","#b877db","#21bfc2","#6c6f93"]
+brights = ["#2e303e","#e95678","#fac29a","#09f7a0","#e95379","#b877db","#21bfc2","#6c6f93"]
   
