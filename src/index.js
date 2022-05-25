@@ -11,7 +11,6 @@ import {
 
 (async () => {
   const themes = await getSourceThemes();
-  const weztermThemes = [];
   for (let i = 0; i < themes.length; i++) {
     const theme = themes[i];
     const color = generateTheme(theme);
@@ -30,22 +29,12 @@ import {
     }
     if (theme.wezterm) {
       const weztermTheme = generateWeztermTheme(theme);
-      weztermThemes.push(weztermTheme);
+      await fs.writeFile(
+        path.join(__dirname, '../extras/wezterm', `${theme.info.name}.toml`),
+        weztermTheme,
+        { encoding: 'utf-8' }
+      );
     }
     console.log(`Theme '${theme.info.name}.vim' created successfully`);
-  }
-  if (weztermThemes.length) {
-    const content = `
-    local color_schemes = {
-      ${weztermThemes.join(',')}
-    }
-
-    return color_schemes;
-    `;
-    await fs.writeFile(
-      path.join(__dirname, '../lua', `wezterm_colors.lua`),
-      content,
-      { encoding: 'utf-8' }
-    );
   }
 })();
