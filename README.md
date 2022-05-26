@@ -2,6 +2,37 @@
 
 A JavaScript utility to create `(neo)vim` colorschemes from JSON files. This project is simply a `copy/paste` version of [felipec/vim-felipec](https://github.com/felipec/vim-felipec). I just converted it from Ruby to JavaScript and modified a little to support some extra features.
 
+## Usage
+
+- ### With `Packer.nvim`
+
+Add this in your packer startup config and run `PackerInstall`:
+
+```lua
+use('sh4hids/color-wheel.vim')
+```
+
+Add this in your `init.lua` file:
+
+```lua
+local colorscheme = 'horizon'
+
+local status_ok, _ = pcall(vim.cmd, 'colorscheme ' .. colorscheme)
+if not status_ok then
+  vim.notify('colorscheme ' .. colorscheme .. ' not found!')
+  return
+end
+```
+
+## Contributing
+
+- Clone the repo `git clone git@github.com:sh4hids/color-wheel.vim.git`
+- Run `npm i`
+- Create a new branch
+- Copy an existing theme from `src/themes` and refactor as your need
+- Run `npm run build`
+- Push your changes to git and create a pull request
+
 ## Available Themes
 
 - horizon
