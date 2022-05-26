@@ -164,7 +164,7 @@
     "DashboardFooter": "cyan0",
 
     "TelescopeNormal": "fg bg",
-    "TelescopeSelection": "red0 fg"
+    "TelescopeSelection": "- dark1"
   },
   "lualine": {
     "inactive": {
