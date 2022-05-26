@@ -125,4 +125,4 @@ hi DashboardCenter guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE ct
 hi DashboardShortCut guifg=#f09383 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi DashboardFooter guifg=#21bfc2 ctermfg=37 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi TelescopeNormal guifg=#6c6f93 ctermfg=60 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
-hi TelescopeSelection guifg=NONE ctermfg=NONE guibg=#6c6f93 ctermbg=60 gui=NONE cterm=NONE 
+hi TelescopeSelection guifg=#1c1e26 ctermfg=234 guibg=#6c6f93 ctermbg=60 gui=NONE cterm=NONE 
