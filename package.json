@@ -10,7 +10,9 @@
     "format": "npm run prettier -- --write",
     "check-format": "npm run prettier -- --list-different",
     "test": "jest",
-    "validate": "npm-run-all --parallel check-format lint test build"
+    "validate": "npm-run-all --parallel check-format lint test build",
+    "lint-staged": "lint-staged",
+    "prepare": "husky install"
   },
   "engines": {
     "node": "16"
@@ -38,7 +40,9 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jest": "^26.1.5",
     "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^8.0.1",
     "jest": "^28.1.0",
+    "lint-staged": "^12.4.2",
     "npm-run-all": "^4.1.5"
   }
 }
