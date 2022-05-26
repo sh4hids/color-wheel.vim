@@ -112,7 +112,11 @@ hi debugBreakpoint guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=reverse
 hi IndentBlanklineChar guifg=#232530 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi NvimTreeRootFolder guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi NvimTreeFolderName guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi NvimTreeOpenedFolderName guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE gui=bold cterm=bold 
 hi NvimTreeSpecialFile guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE  
+hi NvimTreeGitDirty guifg=#fab795 ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi NvimTreeGitNew guifg=#27d796 ctermfg=42 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi NvimTreeGitDeleted guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi GitSignsAdd guifg=#27d796 ctermfg=42 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi GitSignsChange guifg=#fab795 ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi GitSignsDelete guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
