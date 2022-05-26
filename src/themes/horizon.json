@@ -161,7 +161,10 @@
     "DashboardHeader": "red1",
     "DashboardCenter": "orange2",
     "DashboardShortCut": "orange3",
-    "DashboardFooter": "cyan0"
+    "DashboardFooter": "cyan0",
+
+    "TelescopeNormal": "fg bg",
+    "TelescopeSelection": "bg fg"
   },
   "lualine": {
     "inactive": {
