@@ -209,21 +209,21 @@
     "ansi": [
       "bg",
       "red0",
-      "cyan0",
       "orange0",
       "green0",
       "red1",
       "purple0",
+      "cyan0",
       "fg"
     ],
     "brights": [
       "dark1",
       "red0",
-      "cyan0",
       "orange0",
       "green0",
       "red1",
       "purple0",
+      "cyan0",
       "fg"
     ]
   }
