@@ -39,4 +39,6 @@ end
 
 ## Wezterm Theme
 
+- #### With `packer.nvim`
+
 To use any `wezterm` colorscheme from `extras/wezterm` folder, you should copy the desired colorscheme from `$HOME/.local/share/nvim/site/pack/packer/start/color-wheel.vim/extras/wezterm/desired_colorscheme.toml` to `$HOME/.config/wezterm/colors/desired_colorscheme.toml`. After that you have to define the colorscheme in your wezterm config (i.e. `color_scheme = 'desired_colorscheme'`).
