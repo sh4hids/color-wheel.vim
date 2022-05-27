@@ -117,6 +117,7 @@ hi NvimTreeSpecialFile guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE
 hi NvimTreeGitDirty guifg=#fab795 ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi NvimTreeGitNew guifg=#27d796 ctermfg=42 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi NvimTreeGitDeleted guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi NvimTreeStatusLineNC guifg=#1c1e26 ctermfg=234 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi GitSignsAdd guifg=#27d796 ctermfg=42 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi GitSignsChange guifg=#fab795 ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi GitSignsDelete guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 

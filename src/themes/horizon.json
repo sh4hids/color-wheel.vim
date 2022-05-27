@@ -157,6 +157,7 @@
     "NvimTreeGitDirty": "orange1",
     "NvimTreeGitNew": "green1",
     "NvimTreeGitDeleted": "red1",
+    "NvimTreeStatusLineNC": "bg",
 
     "GitSignsAdd": "green1",
     "GitSignsChange": "orange1",
