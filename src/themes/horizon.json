@@ -180,27 +180,27 @@
     },
     "normal": {
       "a": { "fg": "dark3", "bg": "red0", "gui": "bold" },
-      "b": { "fg": "dark0", "bg": "dark1" },
+      "b": { "fg": "bg", "bg": "orange0" },
       "c": { "fg": "dark0", "bg": "dark4" }
     },
     "insert": {
       "a": { "fg": "dark3", "bg": "cyan1", "gui": "bold" },
-      "b": { "fg": "dark0", "bg": "dark1" },
+      "b": { "fg": "bg", "bg": "orange0" },
       "c": { "fg": "dark0", "bg": "dark4" }
     },
     "visual": {
       "a": { "fg": "dark3", "bg": "orange3", "gui": "bold" },
-      "b": { "fg": "dark0", "bg": "dark0" },
+      "b": { "fg": "bg", "bg": "orange0" },
       "c": { "fg": "dark0", "bg": "dark4" }
     },
     "replace": {
       "a": { "fg": "dark3", "bg": "red3", "gui": "bold" },
-      "b": { "fg": "dark0", "bg": "dark0" },
+      "b": { "fg": "bg", "bg": "orange0" },
       "c": { "fg": "dark0", "bg": "dark4" }
     },
     "command": {
       "a": { "fg": "dark3", "bg": "green0", "gui": "bold" },
-      "b": { "fg": "dark0", "bg": "dark0" },
+      "b": { "fg": "bg", "bg": "orange0" },
       "c": { "fg": "dark0", "bg": "dark4" }
     }
   },
@@ -215,8 +215,8 @@
     "ansi": [
       "bg",
       "red0",
-      "orange0",
       "green0",
+      "orange0",
       "red1",
       "purple0",
       "cyan0",
@@ -225,8 +225,8 @@
     "brights": [
       "dark1",
       "red0",
-      "orange0",
       "green0",
+      "orange0",
       "red1",
       "purple0",
       "cyan0",
