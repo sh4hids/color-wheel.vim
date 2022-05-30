@@ -29,10 +29,10 @@ hi String guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Special guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi Underlined   gui=underline cterm=underline 
 hi Cursor guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse 
-hi Search guifg=NONE ctermfg=NONE guibg=#6c6f93 ctermbg=60 gui=bold cterm=bold 
+hi Search guifg=#1c1e26 ctermfg=234 guibg=#6c6f93 ctermbg=60 gui=bold cterm=bold 
 hi QuickFixLine guifg=NONE ctermfg=NONE guibg=#25b2bc ctermbg=37 gui=NONE cterm=NONE 
-hi Visual guifg=NONE ctermfg=NONE guibg=#6c6f93 ctermbg=60 gui=NONE cterm=NONE 
-hi MatchParen guifg=NONE ctermfg=NONE guibg=#6c6f93 ctermbg=60 gui=bold cterm=bold 
+hi Visual guifg=#1c1e26 ctermfg=234 guibg=#6c6f93 ctermbg=60 gui=NONE cterm=NONE 
+hi MatchParen guifg=#1c1e26 ctermfg=234 guibg=#6c6f93 ctermbg=60 gui=bold cterm=bold 
 hi NonText guifg=#6c6f93 ctermfg=60 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
 hi SpecialKey guifg=#fab28e ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi ErrorMsg guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse 

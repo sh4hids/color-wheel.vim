@@ -56,11 +56,11 @@
     "Underlined": ". . u",
 
     "Cursor": "red1 - r",
-    "Search": "- dark0 b",
-    "QuickFixLine": "- dark0 b",
-    "Visual": "- dark0",
-    "MatchParen": "- dark0 b",
-    "NonText": "dark0 dark3",
+    "Search": "bg fg b",
+    "QuickFixLine": "bg fg b",
+    "Visual": "bg fg",
+    "MatchParen": "bg fg b",
+    "NonText": "fg dark3",
     "SpecialKey": "orange2",
 
     "ErrorMsg": "red1 - br",
