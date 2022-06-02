@@ -215,21 +215,21 @@
     "ansi": [
       "bg",
       "red0",
-      "green0",
-      "orange0",
-      "red1",
-      "purple0",
-      "cyan0",
+      "#29D398",
+      "orange1",
+      "#26BBD9",
+      "#EE64AE",
+      "#59E3E3",
       "fg"
     ],
     "brights": [
-      "dark1",
-      "red0",
-      "green0",
-      "orange0",
-      "red1",
-      "purple0",
-      "cyan0",
+      "bg",
+      "#EC6A88",
+      "#3FDAA4",
+      "#FBC3A7",
+      "#3FC6DE",
+      "#F075B7",
+      "#6BE6E6",
       "fg"
     ]
   }
