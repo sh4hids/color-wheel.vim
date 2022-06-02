@@ -213,7 +213,7 @@
     "selection_bg": "fg",
     "selection_fg": "bg",
     "ansi": [
-      "bg",
+      "dark5",
       "red0",
       "#29D398",
       "orange1",
@@ -223,7 +223,7 @@
       "fg"
     ],
     "brights": [
-      "dark5",
+      "dark1",
       "#EC6A88",
       "#3FDAA4",
       "#FBC3A7",
