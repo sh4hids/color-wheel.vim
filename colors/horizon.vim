@@ -11,9 +11,9 @@ endif
 let g:colors_name='horizon'
 
 hi Normal guifg=#6c6f93 ctermfg=60 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
-hi Comment guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE gui=italic cterm=italic 
-hi SpecialComment guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE gui=italic cterm=italic 
-hi Todo guifg=#6c6f93 ctermfg=60 guibg=#1c1e26 ctermbg=234 gui=bold,italic cterm=bold,italic 
+hi Comment guifg=#3e425a ctermfg=238 guibg=NONE ctermbg=NONE gui=italic cterm=italic 
+hi SpecialComment guifg=#3e425a ctermfg=238 guibg=NONE ctermbg=NONE gui=italic cterm=italic 
+hi Todo guifg=#3e425a ctermfg=238 guibg=#1c1e26 ctermbg=234 gui=bold,italic cterm=bold,italic 
 hi Error guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=bold,reverse cterm=bold,reverse 
 hi Constant guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi Statement guifg=#21bfc2 ctermfg=37 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
@@ -89,7 +89,7 @@ hi TSKeywordReturn guifg=#b877db ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE ct
 hi TSConditional guifg=#b877db ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi TSException guifg=#b877db ctermfg=140 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi TSPunctDelimiter guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
-hi TSComment guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE gui=italic cterm=italic 
+hi TSComment guifg=#3e425a ctermfg=238 guibg=NONE ctermbg=NONE gui=italic cterm=italic 
 hi rubyArrayDelimiter guifg=#21bfc2 ctermfg=37 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi rubyCurlyBlockDelimiter guifg=#21bfc2 ctermfg=37 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi SignColumn  guibg=#1c1e26 ctermbg=234  

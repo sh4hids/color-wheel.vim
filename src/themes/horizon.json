@@ -9,6 +9,7 @@
     "bg": "#1C1E26",
 
     "dark0": "#6C6F93",
+    "dark0_5": "#3e425a",
     "dark1": "#2E303E",
     "dark2": "#232530",
     "dark3": "#1C1E26",
@@ -36,9 +37,9 @@
   "highlights": {
     "Normal": "fg bg",
 
-    "Comment": "dark0 - i",
-    "SpecialComment": "dark0 - i",
-    "Todo": "dark0 dark3 bi",
+    "Comment": "dark0_5 - i",
+    "SpecialComment": "dark0_5 - i",
+    "Todo": "dark0_5 dark3 bi",
     "Error": "red1 - br",
 
     "Constant": "red1",
@@ -124,7 +125,7 @@
     "TSConditional": "purple0",
     "TSException": "purple0",
     "TSPunctDelimiter": "dark0",
-    "TSComment": "dark0 - i",
+    "TSComment": "dark0_5 - i",
 
     "rubyArrayDelimiter": "cyan0",
     "rubyCurlyBlockDelimiter": "cyan0",
