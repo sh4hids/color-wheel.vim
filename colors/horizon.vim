@@ -109,7 +109,7 @@ hi ToolbarLine  guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE
 hi ToolbarButton guifg=#2e303e ctermfg=236 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse 
 hi debugPc guifg=NONE ctermfg=NONE guibg=#25b2bc ctermbg=37 gui=NONE cterm=NONE 
 hi debugBreakpoint guifg=#e95379 ctermfg=168 guibg=NONE ctermbg=NONE gui=reverse cterm=reverse 
-hi IndentBlanklineChar guifg=#232530 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
+hi IndentBlanklineChar guifg=#3e425a ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi NvimTreeRootFolder guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi NvimTreeFolderName guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi NvimTreeOpenedFolderName guifg=#6c6f93 ctermfg=60 guibg=NONE ctermbg=NONE gui=bold cterm=bold 

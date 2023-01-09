@@ -149,7 +149,7 @@
     "debugPc": "- cyan1",
     "debugBreakpoint": "red1 - r",
 
-    "IndentBlanklineChar": "dark2",
+    "IndentBlanklineChar": "dark0_5",
 
     "NvimTreeRootFolder": "dark0",
     "NvimTreeFolderName": "dark0",
