@@ -128,3 +128,4 @@ hi DashboardShortCut guifg=#f09383 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE 
 hi DashboardFooter guifg=#21bfc2 ctermfg=37 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 
 hi TelescopeNormal guifg=#6c6f93 ctermfg=60 guibg=#1c1e26 ctermbg=234 gui=NONE cterm=NONE 
 hi TelescopeSelection guifg=#6c6f93 ctermfg=60 guibg=#2e303e ctermbg=236 gui=NONE cterm=NONE 
+hi GitSignsCurrentLineBlame guifg=#3e425a ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE 

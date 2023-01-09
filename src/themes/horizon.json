@@ -171,7 +171,9 @@
     "DashboardFooter": "cyan0",
 
     "TelescopeNormal": "fg bg",
-    "TelescopeSelection": "fg dark1"
+    "TelescopeSelection": "fg dark1",
+
+    "GitSignsCurrentLineBlame": "dark0_5"
   },
   "lualine": {
     "inactive": {
