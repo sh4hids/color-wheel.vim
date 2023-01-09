@@ -36,9 +36,9 @@
   "highlights": {
     "Normal": "fg bg",
 
-    "Comment": "dark1 - i",
-    "SpecialComment": "dark1 - i",
-    "Todo": "dark1 dark3 bi",
+    "Comment": "dark0 - i",
+    "SpecialComment": "dark0 - i",
+    "Todo": "dark0 dark3 bi",
     "Error": "red1 - br",
 
     "Constant": "red1",
@@ -124,7 +124,7 @@
     "TSConditional": "purple0",
     "TSException": "purple0",
     "TSPunctDelimiter": "dark0",
-    "TSComment": "dark1 - i",
+    "TSComment": "dark0 - i",
 
     "rubyArrayDelimiter": "cyan0",
     "rubyCurlyBlockDelimiter": "cyan0",
